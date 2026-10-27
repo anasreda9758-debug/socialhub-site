@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — SocialHub Desktop</title>
+  <meta name="description" content="How SocialHub Desktop stores data locally, uses OAuth tokens, accesses YouTube, and lets you disconnect accounts or delete your data.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://socialhub.vylo.win/privacy/">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script defer src="../assets/site.js"></script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SocialHub">
+  <meta property="og:title" content="Privacy Policy — SocialHub Desktop">
+  <meta property="og:description" content="What SocialHub Desktop stores, where it lives, and how to remove it.">
+  <meta property="og:url" content="https://socialhub.vylo.win/privacy/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta name="twitter:card" content="summary">
+</head>
+<body class="policy-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header site-header--solid">
+    <div class="wrap header-inner">
+      <a class="brand" href="../" aria-label="SocialHub — home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="8" r="3.1" fill="currentColor"/>
+            <circle cx="8" cy="23" r="3.1" fill="currentColor"/>
+            <circle cx="24" cy="23" r="3.1" fill="currentColor"/>
+            <path d="M16 11.2 9.6 20M16 11.2 22.4 20M11.1 23h9.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">SocialHub <span class="brand-tag">Desktop</span></span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" data-nav aria-label="Primary navigation">
+        <a href="../">Home</a>
+        <a href="#english">English</a>
+        <a href="#arabic" lang="ar">العربية</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="lang-btn" href="#arabic" lang="ar" hreflang="ar" aria-label="Go to the Arabic version">العربية</a>
+        <a class="btn btn--primary btn--sm" href="../">Back to site</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="policy-hero">
+      <div class="wrap">
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Legal · Privacy</p>
+        <h1>Privacy Policy</h1>
+        <p class="lead">What SocialHub Desktop stores, where it lives, and how to remove it.</p>
+        <div class="policy-meta">
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 11h18"/></svg>
+            Effective October 27, 2026
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+            SocialHub Desktop 0.2.x for Windows and this website
+          </span>
+        </div>
+        <div class="policy-jump" data-policy-jump data-policy-current>
+          <a href="#english" aria-current="true">English</a>
+          <a href="#arabic" lang="ar">العربية</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap policy-layout">
+      <details class="policy-toc">
+        <summary>On this page</summary>
+        <ol>
+          <li><a href="#overview">Scope and who we are</a></li>
+          <li><a href="#data">Data the app processes</a></li>
+          <li><a href="#google">Google and YouTube data</a></li>
+          <li><a href="#use">How we use data</a></li>
+          <li><a href="#storage">Storage and security</a></li>
+          <li><a href="#sharing">Sharing and disclosure</a></li>
+          <li><a href="#deletion">Retention and deletion</a></li>
+          <li><a href="#choices">Your choices and rights</a></li>
+          <li><a href="#website">This website</a></li>
+          <li><a href="#children">Children</a></li>
+          <li><a href="#international">International users</a></li>
+          <li><a href="#changes">Changes to this policy</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </details>
+
+      <div class="policy-body">
+        <div class="policy-summary">
+          <h2>The short version</h2>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>Local-first.</strong> Your posts, media, comments, settings, and account records live on your Windows PC, not on a SocialHub server.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>No cloud account.</strong> The desktop app does not require an email address, password, or online SocialHub profile.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>Encrypted tokens.</strong> OAuth access and refresh tokens are encrypted with AES-256-GCM; the key is held by Windows Credential Manager.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>No sale, ads, or tracking.</strong> We do not sell your data, show ads, build advertising profiles, or use your content to train AI models.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>You can remove it.</strong> Disconnecting an account deletes its local tokens. Deleting the data folder removes everything the app stored.</span>
+            </li>
+          </ul>
+        </div>
+
+        <article id="english" class="prose" lang="en">
+          <h2 id="overview">1. Scope and who we are</h2>
+          <p>
+            SocialHub Desktop (“SocialHub”, “the app”) is a Windows application that helps you manage social media accounts you already own. This policy explains how the app and this website (<a href="https://socialhub.vylo.win/">socialhub.vylo.win</a>) handle information.
+          </p>
+          <p>
+            SocialHub is an independent project. It does not operate a cloud service that receives your app data, and it is not affiliated with or endorsed by Google, YouTube, Meta, Instagram, Threads, LinkedIn, TikTok, or X. This policy does not cover those platforms. When you use them — including through SocialHub — their own privacy policies and terms apply.
+          </p>
+          <p>
+            Because the app is local-first, most information never reaches us. We cannot read your posts, media, comments, or connected accounts from a server, because we do not have one.
+          </p>
+
+          <h2 id="data">2. Data the app processes</h2>
+          <p>The app processes the following categories of information so that its features work:</p>
+
+          <h3>Local profile and settings</h3>
+          <ul>
+            <li>A local profile is created automatically on first run. In desktop mode it contains a synthetic local identifier (<code>local@socialhub.local</code>), the display name “Local User”, and a locale. There is no sign-up, no real email address, and no SocialHub password.</li>
+            <li>Workspace name, time zone, interface language, and preferences such as close-to-tray, start-minimized, notifications, and autostart.</li>
+            <li>If you set an optional PIN, a salted SHA-256 hash of it is stored locally. The PIN locks the interface; it does not encrypt the database.</li>
+          </ul>
+
+          <h3>Connected social accounts</h3>
+          <ul>
+            <li>Provider name, provider account ID, display name, handle, avatar URL, granted scopes, token expiry, connection status, and the last error reported by the platform.</li>
+            <li>OAuth access and refresh tokens, stored encrypted (see <a href="#storage">Storage and security</a>).</li>
+          </ul>
+
+          <h3>Content you create</h3>
+          <ul>
+            <li>Posts, captions, and other text you write; media files you add; the destinations you select; schedules; and the status and history of each post.</li>
+            <li>Comments and replies you write, and comments you read from connected accounts.</li>
+            <li>Analytics snapshots the app retrieves when you request them.</li>
+          </ul>
+
+          <h3>Platform data you request</h3>
+          <ul>
+            <li>Channel or page information, video or post identifiers, titles, descriptions, and status.</li>
+            <li>Comments and their authors' display names, handles, and avatar URLs.</li>
+            <li>Aggregate reach and engagement metrics that a connected platform exposes through its API.</li>
+          </ul>
+
+          <h3>Technical records</h3>
+          <ul>
+            <li>A local audit log of actions such as sign-in, account connection, disconnection, and publishing. It records the action, entity, timestamp, and may include an IP field; in desktop mode any IP recorded is the local loopback address <code>127.0.0.1</code>.</li>
+            <li>Local technical logs (for example, startup messages and errors returned by a platform). These may contain error details but are not sent to us.</li>
+            <li>A temporary OAuth handshake file (encrypted, with a 10-minute lifetime) used to complete sign-in in your system browser.</li>
+            <li>Backup archives that you create (they can contain your database and media, including encrypted tokens), plus automatic pre-restore archives kept in the app's <code>backups</code> folder.</li>
+          </ul>
+
+          <h2 id="google">3. Google and YouTube data</h2>
+          <p>
+            Connecting a Google account is optional. If you choose to connect YouTube, SocialHub requests the following Google OAuth scopes and uses them only to provide the features you invoke:
+          </p>
+
+          <div class="table-wrap">
+            <table class="scope-table">
+              <thead>
+                <tr>
+                  <th scope="col">Scope</th>
+                  <th scope="col">Why it is requested</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>youtube.upload</code></td>
+                  <td>Upload videos you select, set their title, description, and privacy status, and schedule them with YouTube's native <code>publishAt</code> setting.</td>
+                </tr>
+                <tr>
+                  <td><code>youtube.readonly</code></td>
+                  <td>Read your channel information and video details so the app can display and manage your library.</td>
+                </tr>
+                <tr>
+                  <td><code>youtube.force-ssl</code></td>
+                  <td>Read comment threads and post replies, and manage video metadata through YouTube's secure API endpoints.</td>
+                </tr>
+                <tr>
+                  <td><code>youtube</code></td>
+                  <td>Manage your channel's videos and related resources where needed to update or correct a video's status.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            <strong>What we receive from Google.</strong> Depending on the features you use, the app receives your YouTube channel ID and title, video IDs and metadata, comment threads and the public profile information of comment authors (display name, handle, avatar URL), and aggregate analytics figures if the YouTube Analytics API is enabled for your connection. The app stores this information locally on your PC.
+          </p>
+          <p>
+            <strong>How we use it.</strong> Only to display your data, publish or schedule content you create, read and reply to comments, show metrics you request, and keep your connection working (for example, refreshing an expired access token). We do not use Google user data for advertising, to build advertising profiles, to determine creditworthiness, or to train generalized AI or machine-learning models. We do not sell it. Because there is no server copy, no one at SocialHub can read this data; it is accessed only by the app on your device.
+          </p>
+
+          <div class="callout">
+            <h3>Google API Limited Use</h3>
+            <p>
+              SocialHub's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is transferred to third parties only as necessary to provide or improve the features you request, to comply with applicable law, or as part of a merger, acquisition, or sale of assets with notice to you.
+            </p>
+          </div>
+
+          <p>
+            <strong>Revoking access.</strong> Disconnecting YouTube in SocialHub deletes the local account record and tokens and attempts to revoke the token with Google. You can also remove access at any time at <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>. Revoking access stops future API calls; it does not delete videos or comments that were already published to YouTube.
+          </p>
+          <p>
+            When you use YouTube features, the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> also apply.
+          </p>
+
+          <h2 id="use">4. How we use data</h2>
+          <ul>
+            <li><strong>Provide the app's features:</strong> connect accounts, compose posts, upload media, schedule or publish content, read and reply to comments, and display metrics.</li>
+            <li><strong>Authenticate and maintain connections:</strong> complete OAuth sign-in, refresh access tokens, and show connection status or errors.</li>
+            <li><strong>Keep the app reliable and secure:</strong> write local audit records, diagnose failures, and protect against unauthorized local access.</li>
+            <li><strong>Respond to you:</strong> if you open a GitHub issue, we use the information you choose to include to understand and answer it.</li>
+            <li><strong>Comply with the law</strong> and enforce our rights where necessary.</li>
+          </ul>
+          <p>
+            We do not send marketing email, run advertising, sell data, rent data, or share it with data brokers. We do not use your content or Google user data for profiling or model training.
+          </p>
+
+          <h2 id="storage">5. Storage and security</h2>
+          <p>
+            On Windows, the app stores its data in:
+          </p>
+          <p><code>%APPDATA%\com.socialhub.desktop</code></p>
+          <p>That folder typically contains:</p>
+          <ul>
+            <li><code>socialhub.db</code> — the local SQLite database (accounts, posts, schedules, comments, metrics, audit records, settings).</li>
+            <li><code>storage\</code> — media files you add to the app.</li>
+            <li><code>logs\</code> — local technical logs.</li>
+            <li><code>backups\</code> — automatic pre-restore archives; backups you export are saved wherever you choose.</li>
+            <li><code>settings.json</code>, <code>providers.json</code>, <code>oauth-pending.json</code>, and window-state files.</li>
+          </ul>
+
+          <h3>Encryption</h3>
+          <ul>
+            <li>OAuth access and refresh tokens are encrypted with AES-256-GCM using a random initialization vector and an authentication tag.</li>
+            <li>The encryption key is generated on your device and stored in Windows Credential Manager under <code>SocialHub.Desktop</code>. If Credential Manager is unavailable, the app falls back to a local secrets file in its data folder and logs a warning.</li>
+            <li>Desktop session tokens are stored as SHA-256 hashes in the local database; the raw session token is held in memory.</li>
+            <li>Provider client secrets you enter, if any, are kept in Windows Credential Manager rather than in the database.</li>
+          </ul>
+
+          <div class="callout callout--warn">
+            <h3>Important limits</h3>
+            <p>
+              The database as a whole is <strong>not</strong> encrypted, and the optional PIN is a UI lock, not disk encryption. Anyone who can access your Windows account, your disk, or a backup archive may be able to read the app's database and media. Protect your device with a strong Windows password, keep it patched, and consider full-disk encryption such as BitLocker. No method of storage is completely secure.
+            </p>
+          </div>
+
+          <h3>Network connections</h3>
+          <p>
+            The app runs a local server bound to <code>127.0.0.1:43123</code> and protects it with a per-install token; it is not exposed to your local network or the internet. Outbound HTTPS connections go to the platforms you connect (for example Google, Meta, LinkedIn, TikTok, or X) for OAuth, token refresh, API calls, and media upload. The app may load profile images from a platform's servers. It does not contact a SocialHub cloud server, and Next.js telemetry is disabled.
+          </p>
+
+          <h2 id="sharing">6. Sharing and disclosure</h2>
+          <ul>
+            <li><strong>With platforms you connect.</strong> When you publish, schedule, upload, refresh a token, or read comments, the relevant data is sent to that platform's API. The platform then handles it under its own policy.</li>
+            <li><strong>With GitHub.</strong> If you open an issue in the project's public tracker, GitHub and anyone who can view the issue receive whatever you write there. Do not include tokens, passwords, or personal data in a public issue.</li>
+            <li><strong>For legal reasons.</strong> We may disclose information if required by law, or to protect the rights, safety, and security of users or the public. Because we do not hold your app data, any such disclosure would be limited to information you sent us directly.</li>
+            <li><strong>No sale or advertising.</strong> We do not sell, rent, trade, or share personal data with advertisers, data brokers, or other third parties for their own purposes.</li>
+          </ul>
+          <p>
+            Google user data is not transferred to third parties except as necessary to provide the feature you requested (for example, uploading a video to YouTube), to comply with law, or as part of a merger, acquisition, or sale of assets with notice to you.
+          </p>
+
+          <h2 id="deletion">7. Retention and deletion</h2>
+          <p>
+            The app keeps your data on your device until you delete it. There is no server-side copy for us to retain, and no account to close on our side.
+          </p>
+
+          <h3>Disconnect one account</h3>
+          <ol>
+            <li>Open the account in SocialHub and choose disconnect.</li>
+            <li>The app deletes the local account record, including its encrypted access and refresh tokens.</li>
+            <li>The app attempts to revoke the token with the platform. If you are offline or the provider does not support revocation, the local deletion still happens.</li>
+            <li>You can also revoke access in the platform's own settings — for Google, at <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>.</li>
+          </ol>
+          <p>
+            Published posts and comments remain on the platform until you delete them there. Local audit entries about the disconnection remain in the database until the data folder is deleted.
+          </p>
+
+          <h3>Delete everything</h3>
+          <ol>
+            <li>Export a backup first if you want a copy of your data.</li>
+            <li>Quit SocialHub completely (including the tray icon).</li>
+            <li>Delete <code>%APPDATA%\com.socialhub.desktop</code>. This removes the database, media, logs, settings, and automatic backups.</li>
+            <li>Remove the <code>SocialHub.Desktop</code> entries from Windows Credential Manager, which deletes the encryption key and any provider secrets.</li>
+            <li>Delete any backup archives you exported to other folders.</li>
+          </ol>
+          <p>
+            Uninstalling the application removes its program files but does not delete your data folder. Backups are ordinary ZIP archives that you control; delete them wherever you saved them.
+          </p>
+
+          <h2 id="choices">8. Your choices and rights</h2>
+          <ul>
+            <li><strong>Access and export.</strong> Use the app's backup feature to obtain a copy of your local database and media.</li>
+            <li><strong>Correct your data.</strong> Edit or delete posts, media, and account details inside the app.</li>
+            <li><strong>Withdraw consent.</strong> Disconnect an account, decline the Google consent screen, or revoke access in your platform account settings.</li>
+            <li><strong>Delete your data.</strong> Follow the steps in <a href="#deletion">Retention and deletion</a>.</li>
+            <li><strong>Ask a question.</strong> Use the project's issue tracker; see <a href="#contact">Contact</a>.</li>
+          </ul>
+          <p>
+            Depending on where you live, you may have additional rights under laws such as the GDPR or CCPA, including rights to access, correct, delete, or port personal data, and to object to certain processing. Because SocialHub does not hold your app data on a server, you can exercise most of these rights directly in the app and in your file system. If you need help, contact us and we will explain what we can and cannot do.
+          </p>
+
+          <h2 id="website">9. This website</h2>
+          <p>
+            This website is a static site served by GitHub Pages. It does not use cookies, analytics, advertising pixels, tracking scripts, third-party fonts, or external JavaScript. The only thing it stores in your browser is your language preference, in <code>localStorage</code> under the key <code>socialhub.lang</code>; you can clear it through your browser settings at any time.
+          </p>
+          <p>
+            GitHub, as the hosting provider, may process technical information such as IP addresses and user agents to serve the site and protect its service, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>. We do not receive or analyze those logs. Links to external sites (for example GitHub, Google, or YouTube) are governed by those sites' policies.
+          </p>
+
+          <h2 id="children">10. Children</h2>
+          <p>
+            SocialHub is a productivity tool for managing social media accounts and is not directed to children under 13 (or the minimum age required in your country). Do not use the app or connect accounts if you are below that age. If a child has used the app on your device, delete the data folder and any backups to remove the information.
+          </p>
+
+          <h2 id="international">11. International users</h2>
+          <p>
+            The app processes and stores data locally on your device, in the country where you use it. When you publish or retrieve data through a connected platform, that platform may transfer information internationally under its own policy. This website is hosted by GitHub Pages, which may process technical request data in the United States and other countries.
+          </p>
+
+          <h2 id="changes">12. Changes to this policy</h2>
+          <p>
+            We may update this policy when the app's behavior changes or when the law requires it. The effective date at the top of this page will change, and material updates will be described on this page. Because the app has no mailing list, we cannot notify you by email; check this page before relying on a specific detail.
+          </p>
+
+          <h2 id="contact">13. Contact</h2>
+          <div class="policy-contact-card">
+            <div>
+              <h3>Questions or privacy requests</h3>
+              <p>Open an issue in the public project tracker. Please do not include tokens, passwords, or personal data.</p>
+            </div>
+            <a class="btn btn--primary" href="https://github.com/anasreda9758-debug/socialhub-site/issues" rel="noopener">Open an issue <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
+          <p style="margin-top:18px;">
+            For Google API compliance questions, use the subject “Google API compliance” in your issue so it can be routed correctly.
+          </p>
+
+          <p class="policy-footnote">
+            This policy is available in English and Arabic. The English version is the authoritative version; the Arabic text is a translation provided for convenience. SocialHub is an independent project and is not affiliated with or endorsed by Google, YouTube, Meta, Instagram, Threads, LinkedIn, TikTok, or X. All names and trademarks belong to their owners.
+          </p>
+        </article>
+
+        <section id="arabic" class="policy-ar" lang="ar" dir="rtl" aria-labelledby="arabic-title">
+          <div class="policy-ar-head">
+            <h2 id="arabic-title">سياسة الخصوصية</h2>
+            <a href="#english" lang="en">English version ↑</a>
+          </div>
+          <p class="policy-meta" style="margin-block: 6px 18px;">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 11h18"/></svg>
+              تاريخ السريان: 27 أكتوبر 2026
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+              ينطبق على SocialHub Desktop 0.2.x لنظام Windows وهذا الموقع
+            </span>
+          </p>
+
+          <div class="prose">
+            <p>
+              تشرح هذه السياسة ما يخزّنه تطبيق SocialHub Desktop، وأين تحتفظ به، وكيف تحذفه. وهي تنطبق على تطبيق سطح المكتب وهذا الموقع. لا تنطبق على المنصات التي تختار ربطها؛ لكل منصة سياسة خصوصية وشروط استخدام خاصة بها.
+            </p>
+
+            <h2 id="ar-overview">1. النطاق ومن نحن</h2>
+            <p>
+              SocialHub Desktop تطبيق لنظام Windows يساعدك على إدارة حسابات التواصل الاجتماعي التي تملكها. SocialHub مشروع مستقل، ولا يشغّل خدمة سحابية تستقبل بيانات التطبيق، ولا يرتبط رسميًا بـ Google أو YouTube أو Meta أو Instagram أو Threads أو LinkedIn أو TikTok أو X ولا يحظى بتأييدها.
+            </p>
+            <p>
+              لأن التطبيق يعمل محليًا أولًا، فإن معظم المعلومات لا تصل إلينا إطلاقًا. لا نستطيع قراءة منشوراتك أو وسائطك أو تعليقاتك أو حساباتك المرتبطة من خادم، لأننا لا نملك مثل هذا الخادم.
+            </p>
+
+            <h2 id="ar-data">2. البيانات التي يعالجها التطبيق</h2>
+            <h3>الملف المحلي والإعدادات</h3>
+            <ul>
+              <li>يُنشأ ملف تعريفي محلي تلقائيًا عند أول تشغيل. في وضع سطح المكتب يحتوي على معرّف محلي اصطناعي (<code>local@socialhub.local</code>) واسم العرض «Local User» واللغة. لا يوجد تسجيل ولا بريد إلكتروني حقيقي ولا كلمة مرور لـ SocialHub.</li>
+              <li>اسم مساحة العمل والمنطقة الزمنية ولغة الواجهة وتفضيلات مثل الإغلاق إلى شريط النظام والبدء مصغّرًا والإشعارات والتشغيل التلقائي.</li>
+              <li>إذا عيّنت رمز PIN اختياريًا، يُخزَّن تجزئته المملّحة بخوارزمية SHA-256 محليًا. الرمز يقفل الواجهة ولا يشفّر قاعدة البيانات.</li>
+            </ul>
+
+            <h3>حسابات التواصل المرتبطة</h3>
+            <ul>
+              <li>اسم المزوّد، ومعرّف الحساب لدى المزوّد، واسم العرض، والمعرّف العلني (handle)، ورابط الصورة الرمزية، والأذونات الممنوحة، وانتهاء الرمز، وحالة الاتصال، وآخر خطأ أبلغت عنه المنصة.</li>
+              <li>رموز الوصول والتحديث الخاصة بـ OAuth، مخزّنة مشفّرة (انظر <a href="#ar-storage">التخزين والأمان</a>).</li>
+            </ul>
+
+            <h3>المحتوى الذي تنشئه</h3>
+            <ul>
+              <li>المنشورات والنصوص والوسائط التي تضيفها، والوجهات التي تختارها، والجداول الزمنية، وحالة كل منشور وسجلّه.</li>
+              <li>التعليقات والردود التي تكتبها، والتعليقات التي تقرأها من الحسابات المرتبطة.</li>
+              <li>لقطات التحليلات التي يجلبها التطبيق عندما تطلبها.</li>
+            </ul>
+
+            <h3>بيانات المنصات التي تطلبها</h3>
+            <ul>
+              <li>معلومات القناة أو الصفحة، ومعرّفات الفيديو أو المنشور، والعناوين والأوصاف والحالة.</li>
+              <li>التعليقات وأسماء كتّابها ومعرّفاتهم العلنية وروابط صورهم الرمزية.</li>
+              <li>مؤشرات الوصول والتفاعل المجمّعة التي تعرضها المنصة المرتبطة عبر واجهة API.</li>
+            </ul>
+
+            <h3>السجلات التقنية</h3>
+            <ul>
+              <li>سجل تدقيق محلي لإجراءات مثل تسجيل الدخول وربط الحساب وفصله والنشر. يسجّل الإجراء والكيان والوقت، وقد يتضمن حقلًا لعنوان IP؛ وفي وضع سطح المكتب يكون أي عنوان IP مسجّل هو العنوان المحلي 127.0.0.1.</li>
+              <li>سجلات تقنية محلية (رسائل بدء التشغيل والأخطاء التي تعيدها المنصة مثلًا). قد تحتوي على تفاصيل أخطاء، لكنها لا تُرسل إلينا.</li>
+              <li>ملف مؤقت مشفّر لمصافحة OAuth (صلاحيته 10 دقائق) يُستخدم لإكمال تسجيل الدخول في متصفح النظام.</li>
+              <li>أرشيفات النسخ الاحتياطي التي تنشئها (وقد تحتوي على قاعدة بياناتك ووسائطك، بما في ذلك الرموز المشفّرة)، إضافة إلى نسخ ما قبل الاستعادة التي يحفظها التطبيق تلقائيًا في مجلد <code>backups</code>.</li>
+            </ul>
+
+            <h2 id="ar-google">3. بيانات Google وYouTube</h2>
+            <p>
+              ربط حساب Google اختياري. إذا اخترت ربط YouTube، يطلب SocialHub نطاقات OAuth التالية من Google ويستخدمها فقط لتقديم الميزات التي تشغّلها:
+            </p>
+
+            <div class="table-wrap">
+              <table class="scope-table">
+                <thead>
+                  <tr>
+                    <th scope="col">النطاق</th>
+                    <th scope="col">سبب الطلب</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>youtube.upload</code></td>
+                    <td>رفع الفيديوهات التي تختارها، وضبط عنوانها ووصفها وحالة الخصوصية، وجدولتها باستخدام إعداد <code>publishAt</code> الأصلي في YouTube.</td>
+                  </tr>
+                  <tr>
+                    <td><code>youtube.readonly</code></td>
+                    <td>قراءة معلومات قناتك وتفاصيل الفيديوهات لعرض مكتبتك وإدارتها.</td>
+                  </tr>
+                  <tr>
+                    <td><code>youtube.force-ssl</code></td>
+                    <td>قراءة سلاسل التعليقات والرد عليها، وإدارة بيانات الفيديو عبر نقاط النهاية الآمنة في YouTube.</td>
+                  </tr>
+                  <tr>
+                    <td><code>youtube</code></td>
+                    <td>إدارة فيديوهات قناتك والموارد المرتبطة بها عند الحاجة لتحديث حالة فيديو أو تصحيحها.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>
+              <strong>ما نتلقاه من Google.</strong> بحسب الميزات التي تستخدمها، يتلقى التطبيق معرّف قناتك على YouTube وعنوانها، ومعرّفات الفيديوهات وبياناتها الوصفية، وسلاسل التعليقات والمعلومات العامة لكتّابها (اسم العرض والمعرّف العلني ورابط الصورة الرمزية)، وأرقامًا تحليلية مجمّعة إذا كانت واجهة YouTube Analytics مفعّلة لاتصالك. يخزّن التطبيق هذه المعلومات محليًا على جهازك.
+            </p>
+            <p>
+              <strong>كيف نستخدمها.</strong> فقط لعرض بياناتك، ونشر المحتوى الذي تنشئه أو جدولته، وقراءة التعليقات والرد عليها، وعرض المؤشرات التي تطلبها، والحفاظ على عمل الاتصال (مثل تجديد رمز وصول منتهٍ). لا نستخدم بيانات مستخدمي Google للإعلانات، ولا لبناء ملفات تعريف إعلانية، ولا لتحديد الجدارة الائتمانية، ولا لتدريب نماذج ذكاء اصطناعي أو تعلّم آلي عامة. ولا نبيعها. ولأنه لا توجد نسخة على خادم، لا يستطيع أي شخص في SocialHub قراءة هذه البيانات؛ لا يصل إليها إلا التطبيق على جهازك.
+            </p>
+
+            <div class="callout">
+              <h3>الاستخدام المحدود لبيانات Google API</h3>
+              <p>
+                يلتزم استخدام SocialHub ونقله للمعلومات الواردة من Google APIs بسياسة <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>، بما في ذلك متطلبات الاستخدام المحدود (Limited Use). لا تُنقل بيانات مستخدمي Google إلى أطراف ثالثة إلا بالقدر اللازم لتقديم الميزة التي تطلبها، أو للامتثال للقانون، أو في إطار اندماج أو استحواذ أو بيع أصول مع إشعارك.
+              </p>
+            </div>
+
+            <p>
+              <strong>سحب الوصول.</strong> عند فصل YouTube داخل SocialHub يُحذف سجل الحساب والرموز محليًا، وتُجرى محاولة لإلغاء الرمز لدى Google. يمكنك أيضًا إزالة الوصول في أي وقت من <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>. إلغاء الوصول يوقف استدعاءات API المستقبلية، لكنه لا يحذف الفيديوهات أو التعليقات المنشورة مسبقًا على YouTube.
+            </p>
+            <p>
+              عند استخدام ميزات YouTube، تنطبق أيضًا <a href="https://www.youtube.com/t/terms" rel="noopener">شروط خدمة YouTube</a> و<a href="https://policies.google.com/privacy" rel="noopener">سياسة خصوصية Google</a>.
+            </p>
+
+            <h2 id="ar-use">4. كيف نستخدم البيانات</h2>
+            <ul>
+              <li><strong>تقديم ميزات التطبيق:</strong> ربط الحسابات، وكتابة المنشورات، ورفع الوسائط، والجدولة أو النشر، وقراءة التعليقات والرد عليها، وعرض المؤشرات.</li>
+              <li><strong>المصادقة والحفاظ على الاتصالات:</strong> إكمال تسجيل الدخول عبر OAuth، وتجديد رموز الوصول، وعرض حالة الاتصال أو الأخطاء.</li>
+              <li><strong>إبقاء التطبيق موثوقًا وآمنًا:</strong> كتابة سجلات تدقيق محلية، وتشخيص الأعطال، والحماية من الوصول المحلي غير المصرّح به.</li>
+              <li><strong>الرد عليك:</strong> إذا فتحت تذكرة على GitHub، نستخدم المعلومات التي تختار إدراجها لفهمها والرد عليها.</li>
+              <li><strong>الامتثال للقانون</strong> وإنفاذ حقوقنا عند الحاجة.</li>
+            </ul>
+            <p>
+              لا نرسل بريدًا تسويقيًا، ولا نشغّل إعلانات، ولا نبيع البيانات أو نؤجرها أو نشاركها مع وسطاء بيانات. ولا نستخدم محتواك أو بيانات مستخدمي Google لبناء ملفات تعريف أو لتدريب النماذج.
+            </p>
+
+            <h2 id="ar-storage">5. التخزين والأمان</h2>
+            <p>على Windows، يخزّن التطبيق بياناته في:</p>
+            <p><code>%APPDATA%\com.socialhub.desktop</code></p>
+            <p>ويحتوي هذا المجلد عادةً على:</p>
+            <ul>
+              <li><code>socialhub.db</code> — قاعدة بيانات SQLite المحلية (الحسابات، المنشورات، الجداول، التعليقات، المؤشرات، سجلات التدقيق، الإعدادات).</li>
+              <li><code>storage\</code> — ملفات الوسائط التي تضيفها إلى التطبيق.</li>
+              <li><code>logs\</code> — سجلات تقنية محلية.</li>
+              <li><code>backups\</code> — نسخ تلقائية قبل الاستعادة؛ أما النسخ التي تصدّرها فتُحفظ حيث تختار.</li>
+              <li><code>settings.json</code> و<code>providers.json</code> و<code>oauth-pending.json</code> وملفات حالة النافذة.</li>
+            </ul>
+
+            <h3>التشفير</h3>
+            <ul>
+              <li>تُشفَّر رموز الوصول والتحديث الخاصة بـ OAuth باستخدام AES-256-GCM مع متجه تهيئة عشوائي وعلامة مصادقة.</li>
+              <li>يُولَّد مفتاح التشفير على جهازك ويُحفظ في Windows Credential Manager تحت الاسم <code>SocialHub.Desktop</code>. وإذا لم يتوفر Credential Manager، يعود التطبيق إلى ملف أسرار محلي داخل مجلد البيانات ويسجّل تحذيرًا.</li>
+              <li>تُحفظ رموز جلسات سطح المكتب كتجزئات SHA-256 في قاعدة البيانات المحلية، ويبقى الرمز الأصلي في الذاكرة.</li>
+              <li>أسرار عملاء المزوّدين التي تدخلها، إن وُجدت، تُحفظ في Windows Credential Manager لا في قاعدة البيانات.</li>
+            </ul>
+
+            <div class="callout callout--warn">
+              <h3>حدود مهمة</h3>
+              <p>
+                قاعدة البيانات ككل <strong>غير</strong> مشفّرة، ورمز PIN الاختياري قفل للواجهة وليس تشفيرًا للقرص. أي شخص يستطيع الوصول إلى حساب Windows أو القرص أو أرشيف نسخة احتياطية قد يتمكن من قراءة قاعدة بيانات التطبيق ووسائطه. احمِ جهازك بكلمة مرور Windows قوية، وحدّثه، وفكّر في تشفير القرص الكامل مثل BitLocker. لا توجد وسيلة تخزين آمنة تمامًا.
+              </p>
+            </div>
+
+            <h3>اتصالات الشبكة</h3>
+            <p>
+              يشغّل التطبيق خادمًا محليًا مرتبطًا بالعنوان <code>127.0.0.1:43123</code> ومحميًا برمز خاص بكل تثبيت؛ وهو غير مكشوف لشبكتك المحلية أو الإنترنت. تخرج اتصالات HTTPS إلى المنصات التي تربطها (مثل Google أو Meta أو LinkedIn أو TikTok أو X) لإجراء OAuth وتجديد الرموز واستدعاءات API ورفع الوسائط. وقد يحمّل التطبيق صور الملفات الشخصية من خوادم المنصة. لا يتصل التطبيق بخادم سحابي تابع لـ SocialHub، وتلمترية Next.js معطّلة.
+            </p>
+
+            <h2 id="ar-sharing">6. المشاركة والإفصاح</h2>
+            <ul>
+              <li><strong>مع المنصات التي تربطها.</strong> عند النشر أو الجدولة أو الرفع أو تجديد رمز أو قراءة تعليقات، تُرسل البيانات ذات الصلة إلى واجهة API الخاصة بتلك المنصة، وتتعامل معها المنصة وفق سياستها.</li>
+              <li><strong>مع GitHub.</strong> إذا فتحت تذكرة في متتبّع المشروع العام، يرى GitHub وكل من يستطيع عرض التذكرة ما تكتبه فيها. لا تُدرج رموزًا أو كلمات مرور أو بيانات شخصية في تذكرة عامة.</li>
+              <li><strong>لأسباب قانونية.</strong> قد نفصح عن معلومات إذا أوجب القانون ذلك، أو لحماية الحقوق والسلامة والأمن. ولأننا لا نحتفظ ببيانات التطبيق، فإن أي إفصاح من هذا النوع سيكون محدودًا بالمعلومات التي أرسلتها إلينا مباشرة.</li>
+              <li><strong>لا بيع ولا إعلانات.</strong> لا نبيع البيانات الشخصية أو نؤجرها أو نتاجر بها أو نشاركها مع المعلنين أو وسطاء البيانات أو أطراف أخرى لأغراضهم الخاصة.</li>
+            </ul>
+            <p>
+              لا تُنقل بيانات مستخدمي Google إلى أطراف ثالثة إلا بالقدر اللازم لتقديم الميزة التي طلبتها (مثل رفع فيديو إلى YouTube)، أو للامتثال للقانون، أو في إطار اندماج أو استحواذ أو بيع أصول مع إشعارك.
+            </p>
+
+            <h2 id="ar-deletion">7. الاحتفاظ والحذف</h2>
+            <p>
+              يحتفظ التطبيق ببياناتك على جهازك حتى تحذفها. لا توجد نسخة على خادم لدينا نحتفظ بها، ولا يوجد حساب لدينا لإغلاقه.
+            </p>
+
+            <h3>فصل حساب واحد</h3>
+            <ol>
+              <li>افتح الحساب في SocialHub واختر الفصل.</li>
+              <li>يحذف التطبيق سجل الحساب المحلي، بما في ذلك رموز الوصول والتحديث المشفّرة.</li>
+              <li>يحاول التطبيق إلغاء الرمز لدى المنصة. وإذا كنت دون اتصال أو كانت المنصة لا تدعم الإلغاء، يظل الحذف المحلي قائمًا.</li>
+              <li>يمكنك أيضًا سحب الوصول من إعدادات المنصة نفسها — ولمستخدمي Google من <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>.</li>
+            </ol>
+            <p>
+              تبقى المنشورات والتعليقات المنشورة على المنصة حتى تحذفها هناك. وتبقى إدخالات التدقيق المحلية المتعلقة بالفصل في قاعدة البيانات حتى يُحذف مجلد البيانات.
+            </p>
+
+            <h3>حذف كل شيء</h3>
+            <ol>
+              <li>صدّر نسخة احتياطية أولًا إذا أردت الاحتفاظ بنسخة من بياناتك.</li>
+              <li>أغلق SocialHub بالكامل (بما في ذلك أيقونة شريط النظام).</li>
+              <li>احذف <code>%APPDATA%\com.socialhub.desktop</code>. سيؤدي ذلك إلى حذف قاعدة البيانات والوسائط والسجلات والإعدادات والنسخ التلقائية.</li>
+              <li>أزل إدخالات <code>SocialHub.Desktop</code> من Windows Credential Manager، فيُحذف مفتاح التشفير وأي أسرار للمزوّدين.</li>
+              <li>احذف أي أرشيفات نسخ احتياطي صدّرتها إلى مجلدات أخرى.</li>
+            </ol>
+            <p>
+              إزالة تثبيت التطبيق تحذف ملفات البرنامج، لكنها لا تحذف مجلد بياناتك. النسخ الاحتياطية ملفات ZIP عادية تحت سيطرتك؛ احذفها من المواقع التي حفظتها فيها.
+            </p>
+
+            <h2 id="ar-choices">8. خياراتك وحقوقك</h2>
+            <ul>
+              <li><strong>الوصول والتصدير.</strong> استخدم ميزة النسخ الاحتياطي للحصول على نسخة من قاعدة بياناتك المحلية ووسائطك.</li>
+              <li><strong>تصحيح بياناتك.</strong> حرّر أو احذف المنشورات والوسائط وتفاصيل الحسابات داخل التطبيق.</li>
+              <li><strong>سحب الموافقة.</strong> افصل حسابًا، أو ألغِ شاشة موافقة Google، أو اسحب الوصول من إعدادات حسابك في المنصة.</li>
+              <li><strong>حذف بياناتك.</strong> اتبع الخطوات في <a href="#ar-deletion">الاحتفاظ والحذف</a>.</li>
+              <li><strong>طرح سؤال.</strong> استخدم متتبّع مشكلات المشروع؛ انظر <a href="#ar-contact">التواصل</a>.</li>
+            </ul>
+            <p>
+              بحسب مكان إقامتك، قد تتمتع بحقوق إضافية بموجب قوانين مثل GDPR أو CCPA، بما في ذلك الحق في الوصول والتصحيح والحذف ونقل البيانات والاعتراض على معالجة معينة. ولأن SocialHub لا يحتفظ ببيانات التطبيق على خادم، يمكنك ممارسة معظم هذه الحقوق مباشرة داخل التطبيق وفي نظام الملفات. إذا احتجت مساعدة، تواصل معنا وسنوضح ما يمكننا فعله وما لا يمكننا فعله.
+            </p>
+
+            <h2 id="ar-website">9. هذا الموقع</h2>
+            <p>
+              هذا الموقع موقع ثابت يستضيفه GitHub Pages. لا يستخدم ملفات تعريف ارتباط أو تحليلات أو بكسلات إعلانية أو نصوص تتبّع أو خطوطًا خارجية أو JavaScript خارجيًا. الشيء الوحيد الذي يخزّنه في متصفحك هو تفضيل اللغة، في <code>localStorage</code> تحت المفتاح <code>socialhub.lang</code>؛ ويمكنك مسحه من إعدادات المتصفح في أي وقت.
+            </p>
+            <p>
+              قد يعالج GitHub، بصفته مزوّد الاستضافة، معلومات تقنية مثل عناوين IP ووكلاء المستخدم لتقديم الموقع وحماية خدمته، وفق <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">بيان خصوصية GitHub</a>. نحن لا نتلقى هذه السجلات ولا نحللها. الروابط إلى مواقع خارجية (مثل GitHub أو Google أو YouTube) تخضع لسياسات تلك المواقع.
+            </p>
+
+            <h2 id="ar-children">10. الأطفال</h2>
+            <p>
+              SocialHub أداة إنتاجية لإدارة حسابات التواصل الاجتماعي، وليس موجّهًا إلى الأطفال دون 13 عامًا (أو الحد الأدنى للعمر في بلدك). لا تستخدم التطبيق أو تربط حسابات إذا كنت دون هذا العمر. وإذا استخدم طفل التطبيق على جهازك، فاحذف مجلد البيانات وأي نسخ احتياطية لإزالة المعلومات.
+            </p>
+
+            <h2 id="ar-international">11. المستخدمون في بلدان أخرى</h2>
+            <p>
+              يعالج التطبيق البيانات ويخزّنها محليًا على جهازك، في البلد الذي تستخدمه فيه. وعندما تنشر بيانات أو تجلبها عبر منصة مرتبطة، فقد تنقل المنصة المعلومات دوليًا وفق سياستها. يُستضاف هذا الموقع عبر GitHub Pages، وقد يعالج GitHub بيانات الطلبات التقنية في الولايات المتحدة وبلدان أخرى.
+            </p>
+
+            <h2 id="ar-changes">12. التغييرات على هذه السياسة</h2>
+            <p>
+              قد نحدّث هذه السياسة عندما يتغير سلوك التطبيق أو يقتضي القانون ذلك. سيتغير تاريخ السريان أعلى الصفحة، وستُوصف التحديثات الجوهرية هنا. ولأن التطبيق لا يملك قائمة بريدية، لا يمكننا إشعارك بالبريد الإلكتروني؛ راجع هذه الصفحة قبل الاعتماد على تفصيل معيّن.
+            </p>
+
+            <h2 id="ar-contact">13. التواصل</h2>
+            <div class="policy-contact-card">
+              <div>
+                <h3>أسئلة أو طلبات خصوصية</h3>
+                <p>افتح تذكرة في متتبّع المشروع العام. يُرجى عدم إدراج رموز أو كلمات مرور أو بيانات شخصية.</p>
+              </div>
+              <a class="btn btn--primary" href="https://github.com/anasreda9758-debug/socialhub-site/issues" rel="noopener">افتح تذكرة <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+            <p style="margin-top:18px;">
+              لأسئلة الامتثال لواجهات Google API، استخدم العنوان «Google API compliance» في تذكرتك لتوجيهها بشكل صحيح.
+            </p>
+
+            <p class="policy-footnote">
+              تتوفر هذه السياسة باللغتين الإنجليزية والعربية. النسخة الإنجليزية هي المرجع المعتمد، والنص العربي ترجمة للتيسير. SocialHub مشروع مستقل وغير مرتبط بـ Google أو YouTube أو Meta أو Instagram أو Threads أو LinkedIn أو TikTok أو X ولا يحظى بتأييدها. جميع الأسماء والعلامات التجارية مملوكة لأصحابها.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="../" aria-label="SocialHub — home">
+            <span class="logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="8" r="3.1" fill="currentColor"/>
+                <circle cx="8" cy="23" r="3.1" fill="currentColor"/>
+                <circle cx="24" cy="23" r="3.1" fill="currentColor"/>
+                <path d="M16 11.2 9.6 20M16 11.2 22.4 20M11.1 23h9.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="brand-text">SocialHub <span class="brand-tag">Desktop</span></span>
+          </a>
+          <p>A desktop app for managing social content, designed to stay under your control.</p>
+        </div>
+
+        <div class="footer-col">
+          <h2>Site</h2>
+          <ul>
+            <li><a href="../#features">Features</a></li>
+            <li><a href="../#how">How it works</a></li>
+            <li><a href="../#platforms">Platforms</a></li>
+            <li><a href="../#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Privacy</h2>
+          <ul>
+            <li><a href="#english">English policy</a></li>
+            <li><a href="#arabic" lang="ar">النسخة العربية</a></li>
+            <li><a href="#storage">Data and storage</a></li>
+            <li><a href="#deletion">Data deletion</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Project</h2>
+          <ul>
+            <li><a href="https://github.com/anasreda9758-debug/socialhub-site" rel="noopener">GitHub</a></li>
+            <li><a href="https://github.com/anasreda9758-debug/socialhub-site/issues" rel="noopener">Report an issue</a></li>
+            <li><a href="#contact">Privacy contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> SocialHub. All rights reserved.</p>
+        <p class="footer-legal">
+          SocialHub is an independent project, not affiliated with or endorsed by Google, YouTube, Meta, Instagram, Threads, LinkedIn, TikTok, or X. All names and trademarks belong to their owners.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
